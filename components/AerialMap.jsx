@@ -27,8 +27,6 @@ export default function AerialMap({ areas, onSelect }) {
         <svg viewBox="0 0 1070 660" className="w-full h-auto rounded-xl2 shadow-sm select-none" role="group">
           <rect x="0" y="0" width="1070" height="660" rx="24" fill="#F1E9D8" />
           <path d="M0,70 C160,10 300,125 480,80 C660,35 820,120 1070,55 L1070,0 L0,0 Z" fill="#2C5654" />
-          <text x="20" y="35" className="font-corpo" fontSize="16" fill="#EAF3F2" fontWeight="700">Rio Beira-Rio</text>
-
           <g opacity="0.9">
             {Array.from({ length: 26 }).map((_, i) => (
                 <circle key={`arvore-${i}`} cx={10 + i * 42 + (i % 3) * 6} cy={120 + (i % 4) * 14} r={26 + (i % 3) * 6} fill={i % 2 === 0 ? '#2F4A30' : '#3C5C3A'} />
