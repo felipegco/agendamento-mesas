@@ -29,12 +29,12 @@ export default function Home() {
                         <img
                             src="/logo_portal.png"
                             alt="Portal dos Nobres Residencial"
-                            className="h-14 sm:h-16 w-auto rounded-lg bg-white p-1.5 shadow-sm"
+                            className="h-14 sm:h-16 w-auto rounded-lg bg-opacity-20 bg-white p-1.5 shadow-sm"
                         />
                         <img
                             src="/logo_raiz.png"
                             alt="Raiz"
-                            className="h-14 sm:h-16 w-auto rounded-full bg-white p-1 shadow-sm"
+                            className="h-14 sm:h-16 w-auto rounded-lg bg-opacity-20 bg-white p-1 shadow-sm"
                         />
                     </div>
 

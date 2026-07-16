@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e478bf48-88f9-4e2c-a631-ce6dd0269a70" name="Changes" comment="Update metadata title to reflect name change to &quot;Lanchonete&quot;">
-      <change beforePath="$PROJECT_DIR$/components/AerialMap.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/AerialMap.jsx" afterDir="false" />
+    <list default="true" id="e478bf48-88f9-4e2c-a631-ce6dd0269a70" name="Changes" comment="Remove unused `&lt;text&gt;` element from AerialMap component and clean up workspace.xml adjustments.">
+      <change beforePath="$PROJECT_DIR$/app/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -138,7 +138,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1784230348719</updated>
-      <workItem from="1784230349736" duration="7085000" />
+      <workItem from="1784230349736" duration="7704000" />
     </task>
     <task id="LOCAL-00001" summary="First MVP commit: Replace initial Create Next App setup with custom table reservation system for &quot;Espaço Beira-Rio&quot;. Includes aerial map, table list, modal details, and responsive UI.">
       <option name="closed" value="true" />
@@ -180,7 +180,15 @@
       <option name="project" value="LOCAL" />
       <updated>1784237899945</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Remove unused `&lt;text&gt;` element from AerialMap component and clean up workspace.xml adjustments.">
+      <option name="closed" value="true" />
+      <created>1784238020540</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1784238020540</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -192,6 +200,7 @@
     <MESSAGE value="Refactor AerialMap and TableList components to enhance user interactions and expand map functionality." />
     <MESSAGE value="Refactor Home layout, enhance UI/UX across components, and introduce dynamic map configuration." />
     <MESSAGE value="Update metadata title to reflect name change to &quot;Lanchonete&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update metadata title to reflect name change to &quot;Lanchonete&quot;" />
+    <MESSAGE value="Remove unused `&lt;text&gt;` element from AerialMap component and clean up workspace.xml adjustments." />
+    <option name="LAST_COMMIT_MESSAGE" value="Remove unused `&lt;text&gt;` element from AerialMap component and clean up workspace.xml adjustments." />
   </component>
 </project>
