@@ -77,7 +77,7 @@ export default function TableModal({ area, mesa, onClose }) {
           href="tel:+5500000000000"
           className="mt-6 block text-center rounded-xl bg-rio text-white font-corpo font-800 text-lg py-3 hover:bg-rio-dark transition-colors"
         >
-          📞 Ligar para reservar
+          Ligar para reservar
         </a>
       </div>
     </div>

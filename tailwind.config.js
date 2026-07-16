@@ -8,24 +8,24 @@ module.exports = {
     extend: {
       colors: {
         rio: {
-          DEFAULT: '#2C5654',
-          dark: '#1E3E3C',
-          light: '#4C7A78',
+          DEFAULT: '#264F36',
+          dark: '#1A3826',
+          light: '#3A704F',
         },
         areia: {
-          DEFAULT: '#F1E9D8',
-          dark: '#E4D8BE',
+          DEFAULT: '#F8F6F0',
+          dark: '#EAE3D2',
         },
-        tinta: '#20291F',
+        tinta: '#14202B',
         livre: {
-          DEFAULT: '#3F7A4E',
-          bg: '#E4F0E3',
+          DEFAULT: '#19A354',
+          bg: '#E8F6ED',
         },
         reservado: {
-          DEFAULT: '#B4472F',
-          bg: '#F6E2DC',
+          DEFAULT: '#E5856E',
+          bg: '#FCECE8',
         },
-        madeira: '#C79A4B',
+        madeira: '#EFA62A',
       },
       fontFamily: {
         titulo: ['var(--font-titulo)', 'ui-serif', 'Georgia', 'serif'],

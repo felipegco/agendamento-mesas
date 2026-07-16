@@ -13,7 +13,7 @@ export default function ViewToggle({ view, setView }) {
             : 'bg-white text-rio border-rio/30 hover:border-rio'
         }`}
       >
-        🗺️ Mapa
+        Mapa
       </button>
       <button
         type="button"
@@ -25,7 +25,7 @@ export default function ViewToggle({ view, setView }) {
             : 'bg-white text-rio border-rio/30 hover:border-rio'
         }`}
       >
-        📋 Lista
+        Lista
       </button>
     </div>
   );
