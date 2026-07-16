@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e478bf48-88f9-4e2c-a631-ce6dd0269a70" name="Changes" comment="First MVP commit: Replace initial Create Next App setup with custom table reservation system for &quot;Espaço Beira-Rio&quot;. Includes aerial map, table list, modal details, and responsive UI." />
+    <list default="true" id="e478bf48-88f9-4e2c-a631-ce6dd0269a70" name="Changes" comment="Improve map view responsiveness and add horizontal scroll indicators.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/AerialMap.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/AerialMap.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/TableList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/TableList.jsx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,23 +40,23 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.4713450638396557" />
-      <entry key="MS500" value="3.74337415015639" />
-      <entry key="S2" value="5.270031472242673" />
-      <entry key="S5" value="5.69114732371739" />
-      <entry key="S10" value="5.844753919795649" />
-      <entry key="S30" value="6.324105658637154" />
-      <entry key="S60" value="7.350087264362541" />
-      <entry key="M2" value="8.80009735634178" />
-      <entry key="M5" value="12.919097397091118" />
-      <entry key="M10" value="21.25392028442131" />
-      <entry key="M15" value="28.17514734516719" />
-      <entry key="M30" value="40.078984655551956" />
-      <entry key="H1" value="49.05255869630932" />
-      <entry key="H2" value="54.59659803443348" />
-      <entry key="H4" value="57.6826232552998" />
-      <entry key="D1" value="60.43028412647291" />
-      <entry key="W1" value="60.91818989934491" />
+      <entry key="MS100" value="1.0335949489624043" />
+      <entry key="MS500" value="2.6410914216957453" />
+      <entry key="S2" value="5.242347764917693" />
+      <entry key="S5" value="6.213091375010232" />
+      <entry key="S10" value="6.5909078317017755" />
+      <entry key="S30" value="6.859989684427034" />
+      <entry key="S60" value="6.92958021402256" />
+      <entry key="M2" value="6.9881240789153525" />
+      <entry key="M5" value="8.192808763705278" />
+      <entry key="M10" value="13.489310074307797" />
+      <entry key="M15" value="19.77991702765987" />
+      <entry key="M30" value="33.99540870286531" />
+      <entry key="H1" value="47.25821616284333" />
+      <entry key="H2" value="56.46103489598723" />
+      <entry key="H4" value="61.90274622424905" />
+      <entry key="D1" value="66.93486247686279" />
+      <entry key="W1" value="67.84659210552768" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
@@ -73,23 +78,23 @@
       <entry key="W1" value="0.0" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="1.372317350113706" />
-      <entry key="MS500" value="3.686819218257928" />
-      <entry key="S2" value="5.248705638326276" />
-      <entry key="S5" value="5.681785083888271" />
-      <entry key="S10" value="5.83992047806096" />
-      <entry key="S30" value="6.322401243644964" />
-      <entry key="S60" value="7.349152226936623" />
-      <entry key="M2" value="8.799568660079203" />
-      <entry key="M5" value="12.91875439010971" />
-      <entry key="M10" value="21.253545758440115" />
-      <entry key="M15" value="28.174775561840388" />
-      <entry key="M30" value="40.078691116806134" />
-      <entry key="H1" value="49.052370919724815" />
-      <entry key="H2" value="54.5964914363662" />
-      <entry key="H4" value="57.6825664145889" />
-      <entry key="D1" value="60.430274127145765" />
-      <entry key="W1" value="60.91818845752584" />
+      <entry key="MS100" value="0.175976559490106" />
+      <entry key="MS500" value="2.296560080441303" />
+      <entry key="S2" value="5.135073382048903" />
+      <entry key="S5" value="6.167771326579396" />
+      <entry key="S10" value="6.567805742534209" />
+      <entry key="S30" value="6.85218655642044" />
+      <entry key="S60" value="6.925665564718609" />
+      <entry key="M2" value="6.986162056333227" />
+      <entry key="M5" value="8.191991680630668" />
+      <entry key="M10" value="13.488802947015735" />
+      <entry key="M15" value="19.779486531976328" />
+      <entry key="M30" value="33.995080057916866" />
+      <entry key="H1" value="47.25799658686341" />
+      <entry key="H2" value="56.46090559275414" />
+      <entry key="H4" value="61.90267575680485" />
+      <entry key="D1" value="66.93484983184815" />
+      <entry key="W1" value="67.84659027573709" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
@@ -136,7 +141,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1784230348719</updated>
-      <workItem from="1784230349736" duration="2451000" />
+      <workItem from="1784230349736" duration="3702000" />
     </task>
     <task id="LOCAL-00001" summary="First MVP commit: Replace initial Create Next App setup with custom table reservation system for &quot;Espaço Beira-Rio&quot;. Includes aerial map, table list, modal details, and responsive UI.">
       <option name="closed" value="true" />
@@ -146,7 +151,15 @@
       <option name="project" value="LOCAL" />
       <updated>1784232233118</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Improve map view responsiveness and add horizontal scroll indicators.">
+      <option name="closed" value="true" />
+      <created>1784233072445</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1784233072445</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -154,6 +167,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First MVP commit: Replace initial Create Next App setup with custom table reservation system for &quot;Espaço Beira-Rio&quot;. Includes aerial map, table list, modal details, and responsive UI." />
-    <option name="LAST_COMMIT_MESSAGE" value="First MVP commit: Replace initial Create Next App setup with custom table reservation system for &quot;Espaço Beira-Rio&quot;. Includes aerial map, table list, modal details, and responsive UI." />
+    <MESSAGE value="Improve map view responsiveness and add horizontal scroll indicators." />
+    <option name="LAST_COMMIT_MESSAGE" value="Improve map view responsiveness and add horizontal scroll indicators." />
   </component>
 </project>

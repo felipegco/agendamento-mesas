@@ -54,29 +54,13 @@ export default function Home() {
           </div>
 
           {view === 'mapa' ? (
-              <div className="space-y-3">
-                {/* Indicador visual de rolagem (exibido apenas no mobile) */}
-                <div className="flex items-center justify-center gap-2 text-tinta/60 font-corpo text-sm md:hidden bg-white/60 py-2.5 px-4 rounded-xl border border-tinta/5 shadow-sm animate-pulse">
-                  <span className="text-base">↔️</span>
-                  <span>Deslize para os lados para navegar no mapa</span>
-                </div>
-
-                {/* Contêiner com estouro horizontal (-mx-4 e px-4 dão o efeito de sangria infinita
-                até a borda física do celular, deixando o scroll muito mais elegante)
-            */}
-                <div className="w-full overflow-x-auto pb-4 -mx-4 px-4 sm:mx-0 sm:px-0 scrollbar-thin">
-                  {/* Força uma largura mínima confortável de 950px no mobile para manter os alvos
-                  de toque grandes. No desktop (md:), volta a se comportar normalmente (min-w-0)
-              */}
-                  <div className="min-w-[950px] md:min-w-0 transition-all duration-300">
-                    <AerialMap areas={areas} onSelect={(area, mesa) => setSelecionado({ area, mesa })} />
-                  </div>
-                </div>
+              <div className="w-full">
+                <AerialMap areas={areas} onSelect={(area, mesa) => setSelecionado({ area, mesa })} />
               </div>
           ) : (
               <TableList areas={areas} onSelect={(area, mesa) => setSelecionado({ area, mesa })} />
           )}
-        </div> {/* <-- Esta é a tag que estava faltando fechar na sua versão */}
+        </div>
 
         <footer className="max-w-5xl mx-auto px-4 sm:px-6 pb-10 pt-4">
           <p className="font-corpo text-tinta/60 text-sm sm:text-base">
