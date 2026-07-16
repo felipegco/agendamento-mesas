@@ -1,7 +1,7 @@
 import './globals.css';
 
 export const metadata = {
-  title: 'Reserva de Mesas — Espaço Beira-Rio',
+  title: 'Reserva de Mesas — Lanchonete',
   description: 'Consulte a disponibilidade de mesas do quiosque, lanchonete, espaço família e estacionamento.',
 };
 
