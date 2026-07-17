@@ -144,7 +144,73 @@ export const CONFIG_AMBIENTES = {
     },
 
     // ==========================================
-    // ESTACIONAMENTO (Vagas desenhadas no asfalto)
+    // ESTACIONAMENTO (Transformado em Pátio de Eventos)
     // ==========================================
+    estacionamento: {
+        viewBox: "0 0 900 900",
+        renderPOIs: () => (
+            <g>
+                {/* TOPO: Food Trucks e Palco */}
+                <rect x="40" y="40" width="600" height="80" rx="16" fill="#E5856E" opacity="0.8" stroke="#B4472F" strokeWidth="2" />
+                <text x="340" y="88" textAnchor="middle" fontSize="24" fill="#FFFFFF" fontWeight="800">ÁREA DOS FOOD TRUCKS</text>
+
+                <rect x="660" y="40" width="200" height="80" rx="16" fill="#EFA62A" stroke="#B4472F" strokeWidth="2" />
+                <text x="760" y="88" textAnchor="middle" fontSize="20" fill="#20291F" fontWeight="800">PALCO / CANTOR</text>
+
+                {/* LATERAL DIREITA: Jardins Verticais (Agora mais altos, com height="240") */}
+                <rect x="710" y="160" width="150" height="240" rx="20" fill="#E8F6ED" stroke="#19A354" strokeWidth="2" strokeDasharray="6 6" />
+                <text x="785" y="195" textAnchor="middle" fontSize="16" fill="#19A354" fontWeight="800">JARDIM</text>
+
+                <rect x="710" y="500" width="150" height="240" rx="20" fill="#E8F6ED" stroke="#19A354" strokeWidth="2" strokeDasharray="6 6" />
+                <text x="785" y="535" textAnchor="middle" fontSize="16" fill="#19A354" fontWeight="800">JARDIM</text>
+
+                {/* ENTRADAS (Textos flutuantes) */}
+                <text x="785" y="455" textAnchor="middle" fontSize="18" fill="#20291F" fontWeight="800">ENTRADA</text>
+                <text x="120" y="805" textAnchor="middle" fontSize="18" fill="#20291F" fontWeight="800">ENTRADA</text>
+
+                {/* LINHAS DE DEMARCAÇÃO DO PÁTIO (Com os cortes das entradas) */}
+                {/* Parede Esquerda (Inteira) */}
+                <line x1="40" y1="150" x2="40" y2="800" stroke="#264F36" strokeWidth="2" opacity="0.3" />
+
+                {/* Parede Base (Corte na esquerda, começando no x=200, para a entrada inferior) */}
+                <line x1="200" y1="800" x2="680" y2="800" stroke="#264F36" strokeWidth="2" opacity="0.3" />
+
+                {/* Parede Direita (Corte no meio para a entrada entre os jardins) */}
+                <line x1="680" y1="150" x2="680" y2="410" stroke="#264F36" strokeWidth="2" opacity="0.3" />
+                <line x1="680" y1="490" x2="680" y2="800" stroke="#264F36" strokeWidth="2" opacity="0.3" />
+            </g>
+        ),
+        posicoes: {
+            // ----------------------------------------------------
+            // MESAS DO PÁTIO CENTRAL (36 Mesas em um grid 6x6 mais espaçado)
+            // ----------------------------------------------------
+            // Fileira 1
+            '77': { cx: 110, cy: 210 }, '78': { cx: 200, cy: 210 }, '79': { cx: 290, cy: 210 },
+            '80': { cx: 380, cy: 210 }, '81': { cx: 470, cy: 210 }, '82': { cx: 560, cy: 210 },
+            // Fileira 2
+            '83': { cx: 110, cy: 310 }, '84': { cx: 200, cy: 310 }, '85': { cx: 290, cy: 310 },
+            '86': { cx: 380, cy: 310 }, '87': { cx: 470, cy: 310 }, '88': { cx: 560, cy: 310 },
+            // Fileira 3
+            '89': { cx: 110, cy: 410 }, '90': { cx: 200, cy: 410 }, '91': { cx: 290, cy: 410 },
+            '92': { cx: 380, cy: 410 }, '93': { cx: 470, cy: 410 }, '94': { cx: 560, cy: 410 },
+            // Fileira 4
+            '95': { cx: 110, cy: 510 }, '96': { cx: 200, cy: 510 }, '97': { cx: 290, cy: 510 },
+            '98': { cx: 380, cy: 510 }, '99': { cx: 470, cy: 510 }, '100': { cx: 560, cy: 510 },
+            // Fileira 5
+            '101': { cx: 110, cy: 610 }, '102': { cx: 200, cy: 610 }, '103': { cx: 290, cy: 610 },
+            '104': { cx: 380, cy: 610 }, '105': { cx: 470, cy: 610 }, '106': { cx: 560, cy: 610 },
+            // Fileira 6
+            '107': { cx: 110, cy: 710 }, '108': { cx: 200, cy: 710 }, '109': { cx: 290, cy: 710 },
+            '110': { cx: 380, cy: 710 }, '111': { cx: 470, cy: 710 }, '112': { cx: 560, cy: 710 },
+
+            // ----------------------------------------------------
+            // MESAS DOS JARDINS (2 Mesas em cada, agora bem mais distantes)
+            // ----------------------------------------------------
+            // Jardim Superior
+            '113': { cx: 785, cy: 260 }, '114': { cx: 785, cy: 340 },
+            // Jardim Inferior
+            '115': { cx: 785, cy: 600 }, '116': { cx: 785, cy: 680 },
+        }
+    }
 
 };

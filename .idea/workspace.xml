@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e478bf48-88f9-4e2c-a631-ce6dd0269a70" name="Changes" comment="Remove unused `&lt;text&gt;` element from AerialMap component and clean up workspace.xml adjustments.">
-      <change beforePath="$PROJECT_DIR$/app/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.js" afterDir="false" />
+    <list default="true" id="e478bf48-88f9-4e2c-a631-ce6dd0269a70" name="Changes" comment="Update logo styles with consistent opacity and cleanup workspace.xml adjustments">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/mapConfig.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/data/mapConfig.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/tables.js" beforeDir="false" afterPath="$PROJECT_DIR$/data/tables.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,21 +15,21 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="4" />
+    <option name="cachedIndexableFilesCount" value="22" />
     <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "felipegco"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;felipegco&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings"><![CDATA[{
   "selectedUrlAndAccountId": {
-    "url": "https://github.com/felipegco/agendamento-mesas.git",
+    "url": "git@github.com:felipegco/agendamento-mesas.git",
     "accountId": "36dc2610-0dc7-4478-be74-c11fdffb3f39"
   }
 }]]></component>
@@ -37,67 +39,67 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.1321316969936488" />
-      <entry key="MS500" value="1.8378652779312055" />
-      <entry key="S2" value="3.3519072220873993" />
-      <entry key="S5" value="4.199993770839649" />
-      <entry key="S10" value="4.571652576329447" />
-      <entry key="S30" value="4.850404070042027" />
-      <entry key="S60" value="4.929741725869034" />
-      <entry key="M2" value="5.107846088594182" />
-      <entry key="M5" value="6.708385054901986" />
-      <entry key="M10" value="9.46341217299976" />
-      <entry key="M15" value="11.699395354667379" />
-      <entry key="M30" value="19.46446093914315" />
-      <entry key="H1" value="34.8635694201581" />
-      <entry key="H2" value="52.5184268071034" />
-      <entry key="H4" value="66.271460827294" />
-      <entry key="D1" value="81.46064276104406" />
-      <entry key="W1" value="84.48303809391562" />
+      <entry key="MS100" value="1.0178471466355505" />
+      <entry key="MS500" value="2.48263127024594" />
+      <entry key="S2" value="5.615199063937702" />
+      <entry key="S5" value="7.048967700744016" />
+      <entry key="S10" value="7.806272627155588" />
+      <entry key="S30" value="8.835543034590781" />
+      <entry key="S60" value="9.974163068183392" />
+      <entry key="M2" value="11.33443503606014" />
+      <entry key="M5" value="12.71055838222236" />
+      <entry key="M10" value="13.364884831242048" />
+      <entry key="M15" value="13.905761065029028" />
+      <entry key="M30" value="17.24951782796358" />
+      <entry key="H1" value="28.641305898025497" />
+      <entry key="H2" value="48.11419374391588" />
+      <entry key="H4" value="67.42913440817426" />
+      <entry key="D1" value="92.59043077095419" />
+      <entry key="W1" value="98.05128020122423" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="0.0" />
-      <entry key="S2" value="3.219469089153924E-117" />
-      <entry key="S5" value="2.651365442935447E-47" />
-      <entry key="S10" value="6.13353725136122E-24" />
-      <entry key="S30" value="2.746901948370459E-8" />
-      <entry key="S60" value="2.3255912435523623E-4" />
-      <entry key="M2" value="0.021523805805442612" />
-      <entry key="M5" value="0.3262705275735955" />
-      <entry key="M10" value="0.8077356686769699" />
-      <entry key="M15" value="1.0927357113409317" />
-      <entry key="M30" value="1.4783208914651662" />
-      <entry key="H1" value="1.7194850019320083" />
-      <entry key="H2" value="1.8544449820264979" />
-      <entry key="H4" value="1.9258475890155258" />
-      <entry key="D1" value="1.9874458608584604" />
-      <entry key="W1" value="1.9982017070910896" />
+      <entry key="MS100" value="1.911627378065431E-267" />
+      <entry key="MS500" value="4.5319034448115786E-54" />
+      <entry key="S2" value="4.615792788056781E-14" />
+      <entry key="S5" value="4.838429235611302E-6" />
+      <entry key="S10" value="0.0026866165884114864" />
+      <entry key="S30" value="0.2853243310330075" />
+      <entry key="S60" value="1.1138020762884722" />
+      <entry key="M2" value="2.3154487192916675" />
+      <entry key="M5" value="3.657687942351294" />
+      <entry key="M10" value="4.277795131051892" />
+      <entry key="M15" value="4.537203393715778" />
+      <entry key="M30" value="5.009172840133117" />
+      <entry key="H1" value="5.598379120362425" />
+      <entry key="H2" value="6.141423192357942" />
+      <entry key="H4" value="6.520766095116073" />
+      <entry key="D1" value="6.91206608584835" />
+      <entry key="W1" value="6.987224017922169" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="1.02660312546308" />
-      <entry key="MS500" value="1.8018863471553415" />
-      <entry key="S2" value="3.3345489513940163" />
-      <entry key="S5" value="4.191019068729397" />
-      <entry key="S10" value="4.566709138334394" />
-      <entry key="S30" value="4.8486401201620914" />
-      <entry key="S60" value="4.92896244540496" />
-      <entry key="M2" value="5.127547241067433" />
-      <entry key="M5" value="7.029157253858684" />
-      <entry key="M10" value="10.265016022242895" />
-      <entry key="M15" value="12.786734470150977" />
-      <entry key="M30" value="20.939165414085718" />
-      <entry key="H1" value="36.58091394748951" />
-      <entry key="H2" value="54.37168878126157" />
-      <entry key="H4" value="68.19668222793746" />
-      <entry key="D1" value="83.44797865985028" />
-      <entry key="W1" value="86.48122394280377" />
+      <entry key="MS100" value="0.11109212403116675" />
+      <entry key="MS500" value="2.0059073508654324" />
+      <entry key="S2" value="5.204875482669835" />
+      <entry key="S5" value="6.76151727081622" />
+      <entry key="S10" value="7.609595473333062" />
+      <entry key="S30" value="8.993458919833973" />
+      <entry key="S60" value="10.956769265191468" />
+      <entry key="M2" value="13.534703028953937" />
+      <entry key="M5" value="16.29974629625203" />
+      <entry key="M10" value="17.603223931448177" />
+      <entry key="M15" value="18.415226029290285" />
+      <entry key="M30" value="22.24358021517664" />
+      <entry key="H1" value="34.231370409388205" />
+      <entry key="H2" value="54.25109774820733" />
+      <entry key="H4" value="73.94750925140552" />
+      <entry key="D1" value="99.50207481064136" />
+      <entry key="W1" value="105.0384432666205" />
     </decayedShown>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6,
-  "fromUser": false
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6,
+  &quot;fromUser&quot;: false
+}</component>
   <component name="ProjectId" id="3GbBNaCnZ0WJuczrMzI9WGfXv1G" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -116,6 +118,8 @@
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "git-widget-placeholder": "main",
     "javascript.preferred.runtime.type.id": "node",
+    "js.debugger.nextJs.config.created.client": "true",
+    "js.debugger.nextJs.config.created.server": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -124,6 +128,21 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager" selected="npm.Next.js: server-side">
+    <configuration name="Next.js: debug client-side" type="JavascriptDebugType" uri="http://localhost:3000/">
+      <method v="2" />
+    </configuration>
+    <configuration name="Next.js: server-side" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -138,7 +157,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1784230348719</updated>
-      <workItem from="1784230349736" duration="7704000" />
+      <workItem from="1784230349736" duration="7930000" />
+      <workItem from="1784296363183" duration="300000" />
     </task>
     <task id="LOCAL-00001" summary="First MVP commit: Replace initial Create Next App setup with custom table reservation system for &quot;Espaço Beira-Rio&quot;. Includes aerial map, table list, modal details, and responsive UI.">
       <option name="closed" value="true" />
@@ -188,7 +208,15 @@
       <option name="project" value="LOCAL" />
       <updated>1784238020540</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Update logo styles with consistent opacity and cleanup workspace.xml adjustments">
+      <option name="closed" value="true" />
+      <created>1784242361690</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1784242361690</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -201,6 +229,7 @@
     <MESSAGE value="Refactor Home layout, enhance UI/UX across components, and introduce dynamic map configuration." />
     <MESSAGE value="Update metadata title to reflect name change to &quot;Lanchonete&quot;" />
     <MESSAGE value="Remove unused `&lt;text&gt;` element from AerialMap component and clean up workspace.xml adjustments." />
-    <option name="LAST_COMMIT_MESSAGE" value="Remove unused `&lt;text&gt;` element from AerialMap component and clean up workspace.xml adjustments." />
+    <MESSAGE value="Update logo styles with consistent opacity and cleanup workspace.xml adjustments" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update logo styles with consistent opacity and cleanup workspace.xml adjustments" />
   </component>
 </project>
